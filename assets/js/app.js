@@ -6,16 +6,35 @@ var artHistory = document.getElementById('art-history');
 var fotos = document.getElementById('photos');
 
 var osos = document.getElementsByClassName('panda-pic');
-var oso = document.getElementById("panda1");
-var equis = document.getElementById('close1');
+var oso1 = document.getElementById("panda1");
+var oso2 = document.getElementById("panda2");
+var oso3 = document.getElementById("panda3");
+var oso4 = document.getElementById("panda4");
+var equis1 = document.getElementById('close1');
+var equis2 = document.getElementById('close2');
+var equis3 = document.getElementById('close3');
+var equis4 = document.getElementById('close4');
 
-equis.addEventListener("click", function(e){
-  return oso.parentNode.style.visibility = "hidden";
-});
-
-
+function noHidden(param){
+  if(param.style.display == "none"){
+    return param.style.display = "inline-block"
+  }
+}
 
 window.addEventListener("load",function(){
+  equis1.addEventListener("click", function(e){
+    return oso1.parentNode.style.display = "none";
+  });
+  equis2.addEventListener("click", function(e){
+    return oso2.parentNode.style.display = "none";
+  });
+  equis3.addEventListener("click", function(e){
+    return oso3.parentNode.style.display = "none";
+  });
+  equis4.addEventListener("click", function(e){
+    return oso4.parentNode.style.display = "none";
+  });
+
   origen.addEventListener("click", function(e){
     e.preventDefault();
     if(artOrigin.style.visibility == "hidden"){
@@ -35,11 +54,10 @@ window.addEventListener("load",function(){
   });
 
   restore.addEventListener("click",function(e){
-    fotos.style.display = "block";
-    for(var i = 0; i < osos.length; i++){
-      if(osos[i].style.visibility == "hidden")
-        return osos[i]. style.visibility = "visible"
-    }
+    noHidden(oso1.parentNode);
+    noHidden(oso2.parentNode);
+    noHidden(oso3.parentNode);
+    noHidden(oso4.parentNode);
   });
 
 
