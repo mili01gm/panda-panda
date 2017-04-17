@@ -105,18 +105,13 @@ body {
 }
 
 /*articles style*/
-#info .articles {
-  display: inline-block;
-  color: #f1f1f1;
-  width: 100%;
-  margin: auto 20px;
-}
-
-#info .articles div {
-  visibility: visible;
-  display: inline-block;
-  text-align: justify;
-  margin: 20px;
-  padding: auto 30px;
-}
+#info article {
+   text-align: justify;
+   color: #f1f1f1;
+   display: inline-block;
+   white-space: pre-line;
+   margin: 0 30px;
+   width: 38%;
+   font-size: 14px;
+  }
 /*End INFO*/
