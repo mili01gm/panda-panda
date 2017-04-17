@@ -10,7 +10,7 @@ body {
   background: #F24236;
   height: 80px;
   width: 100%;
-  padding-top: 14px;
+  padding-top: 15px;
 }
 
 #menu ul {
@@ -24,7 +24,7 @@ body {
   display: inline-block;
   margin: auto 15px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   transition: all 0.4s;
 }
 
@@ -35,9 +35,51 @@ body {
 }
 /*End MENU*/
 
-/*Gallery section*/
-#photos {
+/*Photos section*/
+#photos {  /*ID used on JS*/
+  text-align: center;
   width: 100%;
   height: 25%;
+  display: inline-block;
+}
 
+/*Container of each photo*/
+/*class used on JS*/
+.panda-pic {
+  position: relative;
+  display: inline-block;
+  margin: 20px 5px;
+}
+
+/*Only photo style*/
+.panda-pic img {
+  width: 250px;
+  max-width: 100%;
+  height: 190px;
+  max-height: 100%;
+  border: 10px solid lightgray;
+}
+
+/*Close X*/
+.panda-pic .close {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  color: #f1f1f1;
+  font-size: 26px;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.panda-pic .close:hover {
+  color: #F24236;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/*End Photos*/
+
+/*INFO section*/
+#info {
+  text-align: center;
 }
