@@ -3,14 +3,15 @@ body {
   font-family: sans-serif;
   box-sizing: border-box;
   background: #333;
+  overflow: hidden;
 }
 
 /*MENU*/
 #menu {
   background: #F24236;
-  height: 80px;
+  height: 60px;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 #menu ul {
@@ -25,13 +26,13 @@ body {
   margin: auto 15px;
   font-size: 18px;
   font-weight: 700;
-  transition: all 0.4s;
+  transition: all 0.7s;
 }
 
 #menu li:hover {
   color: #333;
   cursor: pointer;
-  font-size: 20px;
+  font-weight: 900;
 }
 /*End MENU*/
 
@@ -82,4 +83,33 @@ body {
 /*INFO section*/
 #info {
   text-align: center;
+  margin: 20px 20px;
+  width: 100%;
 }
+
+/*Buttons style*/
+#info button {
+  color: #f1f1f1;
+  background: #F24236;
+  border: none;
+  margin: 10px auto;
+  width: 30%;
+  height: 32px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#info button:hover {
+  color: #333;
+  font-weight: 700;
+}
+
+/*articles style*/
+#info article {
+  text-align: justify;
+  color: #f1f1f1;
+  display: inline-block;
+  margin: 40px 30px;
+  width: 38%;
+}
+/*End INFO*/
