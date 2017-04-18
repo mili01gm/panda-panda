@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   box-sizing: border-box;
   background: #333;
-  overflow: auto;
+  overflow: hidden;
 }
 
 /*MENU*/
@@ -16,6 +16,7 @@ body {
 
 #menu ul {
   background-color: #F24236;
+  margin-left: 40px;
 }
 
 #menu li {
@@ -23,7 +24,7 @@ body {
   color: #f1f1f1;
   list-style: none;
   display: inline-block;
-  margin: auto 15px;
+  margin: auto 20px;
   font-size: 18px;
   font-weight: 500;
   transition: all 0.7s;
@@ -38,10 +39,11 @@ body {
 
 /*Photos section*/
 #photos {  /*ID used on JS*/
-  text-align: center;
+  text-align: left;
   width: 100%;
   height: 25%;
-  margin: 10px 20px;
+  margin-top: 10px;
+  margin-left: 10.5%;
   display: inline-block;
 }
 
