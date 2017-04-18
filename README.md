@@ -25,13 +25,35 @@
   La galería conta de 4 fotos las cuales pueden ser ocultadas haciendo click al aspa en cada una. Una vez se ocultan todas, la sección de la fotos desaparece.
 
 ![Alt text](/assets/img/fotos_close.png?raw=true)
-![Alt text](/assets/img/fotos_none.png?raw=true)
+![Alt text](/assets/img/foton_none.png?raw=true)
 
   En JS se llama a cada foto y al aspa dentro del evento "load" de la ventana, esto para cambiar el display de cada una.
 
 ![Alt text](/assets/img/fotos_event.png?raw=true)
 
-  Adicional al display se crea la función noHidden() que retornará las imagenes al ocurrir el evento "click" en el botón 'Restore photos'.
+### Botones para display de fotos e imformación
+
+  Adicional al display de las fotos se crea la función noHidden() que retornará las imagenes al ocurrir el evento "click" en el botón 'Restore photos'.
 
 ![Alt text](/assets/img/fotos_funcion.png?raw=true)
 ![Alt text](/assets/img/fotos_restore.png?raw=true)
+
+  Los botones 'Origin' y 'History' ocultan o muestran un texto cada uno con cada click. Para esto se utilizan eventos "click" para cada uno en JS.
+
+![Alt text](/assets/img/boton_js.png?raw=true)
+
+### Los artículos (o textos) informativos
+
+  Estos textos son la información que los botones anteriores ocultan o muestran con cada click.
+
+![Alt text](/assets/img/boton_hist.png?raw=true)
+![Alt text](/assets/img/boton_hist2.png?raw=true)
+
+  Puede incluso no haber texto.
+
+![Alt text](/assets/img/sin_texto.png?raw=true)  
+
+
+----------------------------------------------------------
+Gracias
+----------------------------------------------------------
