@@ -13,12 +13,10 @@ body {
   width: 100%;
   padding-top: 10px;
 }
-
 #menu ul {
   background-color: #F24236;
   margin-left: 40px;
 }
-
 #menu li {
   background: none;
   list-style: none;
@@ -28,11 +26,9 @@ body {
   font-weight: 500;
   transition: all 0.7s;
 }
-
 #menu li a {
   color: #f1f1f1;
 }
-
 #menu li:hover {
   color: #333;
   cursor: pointer;
